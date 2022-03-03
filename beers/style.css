@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+section {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2px;
+  align-items: center;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a:active {
+  color: #fe5f55;
+}
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 50px;
+  border: 1px solid;
+  border-top-color: #fe5f55;
+  border-bottom-color: #f0b67f;
+  border-left: none;
+  border-right: none;
+  background-color: whitesmoke;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  gap: 2%;
+  margin-top: 5em;
+  flex: 0 1 50%;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
+
+#desc {
+  font-size: 1em;
+}
+
+.buttons {
+  display: flex;
+  gap: 10%;
+  margin-top: 1em;
+}
+
+div.sortButtons {
+  margin-top: 5em;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font-family: inherit;
+  background: #fe5f55;
+  cursor: pointer;
+  color: white;
+}
+div.container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+div.values-show {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+#searchInput {
+  padding: 0.7em;
+  border-top-color: #fe5f55;
+  border-bottom-color: #f0b67f;
+  border-left: none;
+  border-right: none;
+  border-radius: 50px;
+}
+div.container-search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6em;
+  margin-top: 1em;
+  margin-right: 4em;
+}
+#paragraph {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-right: 12em;
+}

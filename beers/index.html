@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Beer bar</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="navBar">
+        <li class="navList"><a href="../beer-bar/index.html">Beer bar</a></li>
+        <li class="navList"><a href="../beers/index.html">Beer</a></li>
+        <li class="navList">
+          <a href="../random-beer/index.html">Random beer</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-search">
+      <input
+        type="search"
+        name="search"
+        id="searchInput"
+        placeholder="Search Beer.."
+      />
+      <button id="searchBtn">Enter</button>
+      <p id="paragraph"></p>
+    </div>
+    <section>
+      <div class="container-buttons">
+        <div class="sortButtons">
+          <button id="sort">Sort Beers by Name</button>
+          <button id="sortAlcohol">Sort Beers by Alcohol</button>
+          <button id="sortBitterness">Sort Beers by Bitterness</button>
+        </div>
+        <div class="values-show">
+          <h3>Page Size</h3>
+          <button class="buttonsShow" id="three">3</button>
+          <button class="buttonsShow">5</button>
+          <button class="buttonsShow">10</button>
+        </div>
+      </div>
+      <div class="container" id="container"></div>
+      <div class="buttons">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
