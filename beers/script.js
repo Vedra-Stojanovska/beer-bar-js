@@ -133,7 +133,6 @@ let useData = async (url) => {
       currentPage++;
     } else if (changePage == false && currentPage > 0) {
       currentPage--;
-    } else if (currentPage < 0) {
     }
     //calling the function changeBeersPage so that the user can choose how many values he wants to see
     changeBeersPage(beers);
