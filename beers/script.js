@@ -9,7 +9,6 @@ let sortButtonIbu = document.getElementById("sortBitterness");
 let buttonsShowValues = document.querySelectorAll(".buttonsShow");
 let searchValue = document.getElementById("searchInput");
 let searchButton = document.getElementById("searchBtn");
-let paragraph = document.getElementById("paragraph");
 
 //create a class of beers
 class Beer {
